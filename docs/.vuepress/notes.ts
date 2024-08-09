@@ -5,14 +5,14 @@ export const Notes = definePlumeNotesConfig({
   link: '/',
   notes: [
     {
-      dir: 'theme/guide',
+      dir: 'intro/guide/',
       link: '/guide/',
       sidebar: [
         {
-          text: '快速开始',
+          text: 'Quick Start',
           collapsed: false,
           icon: 'carbon:idea',
-          items: ['介绍', '安装与使用', '博客', '知识笔记', '编写文章', '国际化', '部署'],
+          items: ['intro', '介绍', '安装与使用', '博客', '知识笔记', '编写文章', '国际化', '部署'],
         },
         {
           text: '写作',

@@ -4,7 +4,7 @@ import { version } from '../../package.json'
 
 export const Navbar = [
   { text: 'Home', link: '/', icon: 'material-symbols:home-outline' },
-  { text: 'intro', link: '/guide/intro/', icon: 'material-symbols:article-outline' },
+  { text: 'Intro', link: '/guide/intro/', icon: 'icon: mdi:information-outline' },
   { text: 'notes', link: '/notes/sub1/', icon: 'material-symbols:article-outline' },
   { text: 'About', link: '/about/', icon: 'mdi:alert-box-outline' },
   {
