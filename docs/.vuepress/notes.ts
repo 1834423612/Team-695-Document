@@ -72,75 +72,75 @@ export const Notes = definePlumeNotesConfig({
         },
       ],
     },
-    {
-      dir: 'theme/config',
-      link: '/config/',
-      sidebar: [
-        {
-          text: '配置',
-          collapsed: false,
-          items: [
-            '配置说明',
-            '多语言配置',
-            '主题配置',
-            '导航栏配置',
-            'notes配置',
-          ],
-        },
-        {
-          text: 'frontmatter',
-          dir: 'frontmatter',
-          collapsed: false,
-          items: ['basic', 'home', 'post', 'friend'],
-        },
-        {
-          text: '内置插件',
-          dir: 'plugins',
-          collapsed: false,
-          items: ['', '代码高亮', '搜索', '阅读统计', 'markdown增强', 'markdownPower', '百度统计', '水印'],
-        },
-      ],
-    },
-    {
-      dir: 'plugins',
-      link: '/plugins/',
-      sidebar: [
-        {
-          text: '插件',
-          items: [
-            // 'caniuse',
-            'iconify',
-            'shiki',
-            'md-power',
-            'content-updated',
-            {
-              text: 'plugin-netlify-functions',
-              dir: 'netlify-functions',
-              link: '/plugins/plugin-netlify-functions/',
-              collapsed: true,
-              items: [
-                '介绍',
-                '使用',
-                '功能',
-                'api',
-                'functions',
-              ],
-            },
-          ],
-        },
-      ],
-    },
-    {
-      dir: 'tools',
-      link: '/tools/',
-      sidebar: [
-        {
-          text: '工具',
-          icon: 'tabler:tools',
-          items: ['home-hero-tint-plate', 'caniuse'],
-        },
-      ],
-    },
+    // {
+    //   dir: 'theme/config',
+    //   link: '/config/',
+    //   sidebar: [
+    //     {
+    //       text: '配置',
+    //       collapsed: false,
+    //       items: [
+    //         '配置说明',
+    //         '多语言配置',
+    //         '主题配置',
+    //         '导航栏配置',
+    //         'notes配置',
+    //       ],
+    //     },
+    //     {
+    //       text: 'frontmatter',
+    //       dir: 'frontmatter',
+    //       collapsed: false,
+    //       items: ['basic', 'home', 'post', 'friend'],
+    //     },
+    //     {
+    //       text: '内置插件',
+    //       dir: 'plugins',
+    //       collapsed: false,
+    //       items: ['', '代码高亮', '搜索', '阅读统计', 'markdown增强', 'markdownPower', '百度统计', '水印'],
+    //     },
+    //   ],
+    // },
+    // {
+    //   dir: 'plugins',
+    //   link: '/plugins/',
+    //   sidebar: [
+    //     {
+    //       text: '插件',
+    //       items: [
+    //         // 'caniuse',
+    //         'iconify',
+    //         'shiki',
+    //         'md-power',
+    //         'content-updated',
+    //         {
+    //           text: 'plugin-netlify-functions',
+    //           dir: 'netlify-functions',
+    //           link: '/plugins/plugin-netlify-functions/',
+    //           collapsed: true,
+    //           items: [
+    //             '介绍',
+    //             '使用',
+    //             '功能',
+    //             'api',
+    //             'functions',
+    //           ],
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
+    // {
+    //   dir: 'tools',
+    //   link: '/tools/',
+    //   sidebar: [
+    //     {
+    //       text: '工具',
+    //       icon: 'tabler:tools',
+    //       items: ['home-hero-tint-plate', 'caniuse'],
+    //     },
+    //   ],
+    // },
   ],
 })
 
