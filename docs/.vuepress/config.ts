@@ -1,6 +1,6 @@
 import path from 'node:path'
 import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { viteBundler, ViteBundlerOptions } from '@vuepress/bundler-vite'
 import { plumeTheme } from 'vuepress-theme-plume'
 import iconifyPlugin from '@vuepress-plume/plugin-iconify'
 
@@ -19,5 +19,23 @@ export default defineUserConfig({
             componentName: 'Iconify'
         })
     ],
-    bundler: viteBundler(),
-})
+    
+    // Use viteBundler and pass the correct options
+    bundler: viteBundler({
+        viteOptions: {
+            plugins: [
+                // Some Vite plugins might need
+            ],
+            build: {
+                rollupOptions: {
+                    // Put Rollup specific settings
+                    external: [
+                        '.cache',
+                        '.temp',
+                        '/images/logo.png',
+                    ],
+                },
+            },
+        },
+    }),
+});
