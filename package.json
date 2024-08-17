@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "clean": "rimraf node_modules pnpm-lock.yaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "rimraf": "^6.0.1",
     "vue": "^3.4.38",
     "vuepress": "2.0.0-rc.14",
     "vuepress-theme-plume": "1.0.0-rc.86"
