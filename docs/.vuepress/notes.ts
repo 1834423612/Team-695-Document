@@ -23,7 +23,7 @@ export const Notes = definePlumeNotesConfig({
               text: 'markdown',
               icon: 'material-symbols:markdown-outline',
               dir: 'markdown',
-              items: ['基础', '扩展', '进阶'],
+              items: ['Basics', '扩展', '进阶'],
             },
             {
               text: '代码块',
