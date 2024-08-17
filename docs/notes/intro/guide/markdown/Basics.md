@@ -15,8 +15,8 @@ licensed under the [MIT](https://github.com/vuepress-theme-hope/vuepress-theme-h
 :::
 
 ::: warning
-**This document was using Google translate from a Chinese version, some words might have the mistake.**  
-**The original document was locate at: [Plume Theme - Markdown Basic (CN Version)](https://theme-plume.vuejs.press/guide/markdown/basic/)**
+**This document was using Google translate convert from a Chinese version, some words might have the mistake.**  
+The original document was locate at: [VuePress Plume Theme - Markdown Basic (CN Version ONLY)](https://theme-plume.vuejs.press/guide/markdown/basic/)
 :::
 
 Markdown is a markup language that can be written using a plain text editor. With simple markup syntax, it allows plain text content to have certain formatting.
@@ -828,6 +828,7 @@ Markdown supports using backslashes before the following symbols to insert them 
 | Center using `:-:` | Right using `-:` | Left using `:-` |
 |       b        |   aaaaaaaaa  |     a         |
 |       c        |       aaaa    |     a         |
+
 
 [1]: http://docutils.sourceforge.net/mirror/setext.html
 [2]: http://www.aaronsw.com/2002/atx/
