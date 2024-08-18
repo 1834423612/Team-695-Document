@@ -15,12 +15,13 @@ export const Notes = definePlumeNotesConfig({
           items: ['intro', '介绍', '安装与使用', '博客', '知识笔记', '编写文章', '国际化', '部署'],
         },
         {
-          text: '写作',
+          text: 'Write a document',
           icon: 'fluent-mdl2:edit-create',
           collapsed: false,
           items: [
             {
               text: 'markdown',
+              collapsed: true,
               icon: 'material-symbols:markdown-outline',
               dir: 'markdown',
               items: ['Basics', '扩展', '进阶'],
