@@ -823,12 +823,21 @@ Markdown supports using backslashes before the following symbols to insert them 
 
 ## Tables
 
-|     Center     |     Right     |     Left      |
-| :------------: | ------------: | :-----------: |
-| Center using `:-:` | Right using `-:` | Left using `:-` |
-|       b        |   aaaaaaaaa  |     a         |
-|       c        |       aaaa    |     a         |
+|       Left      |       Center       |      Right       |
+| :-------------- | :----------------: | ---------------: |
+| Left using `:-` | Center using `:-:` | Right using `-:` |
+|        b        |      aaaaaaaaa     |        a         |
+|        c        |        aaaa        |        a         |
 
+In your markdown style should be add like this:
+
+```markdown{1-2}
+|       Left      |       Center       |      Right       | // [!code focus]
+| :-------------- | :----------------: | ---------------: | // [!code focus]
+| Left using `:-` | Center using `:-:` | Right using `-:` |
+|        b        |      aaaaaaaaa     |        a         |
+|        c        |        aaaa        |        a         |
+```
 
 [1]: http://docutils.sourceforge.net/mirror/setext.html
 [2]: http://www.aaronsw.com/2002/atx/
