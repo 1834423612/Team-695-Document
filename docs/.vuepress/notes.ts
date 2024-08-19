@@ -5,7 +5,7 @@ export const Notes = definePlumeNotesConfig({
   link: '/',
   notes: [
     {
-      dir: 'intro/guide/',
+      dir: 'menu/guide/',
       link: '/guide/',
       sidebar: [
         {
