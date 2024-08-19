@@ -9,12 +9,17 @@ tags:
   - Markdown
 ---
 
+<Card title="Path" icon="bi:folder-fill">
+    This page were located at
+    <Badge type="tip" text="docs/notes/menu/guide/markdown/Basics.md" />
+</Card>
+
 ::: info
 This document is forked from [vuepress-theme-hope](https://theme-hope.vuejs.press/zh/cookbook/markdown/),
 licensed under the [MIT](https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE) license.
 :::
 
-::: warning
+::: warning Attention!
 **This document was using Google translate convert from a Chinese version, some words might have the mistake.**  
 The original document was locate at: [VuePress Plume Theme - Markdown Basic (CN Version ONLY)](https://theme-plume.vuejs.press/guide/markdown/basic/)
 :::
