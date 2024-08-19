@@ -41,12 +41,12 @@ export default defineUserConfig({
                 chart: true, // Chart support
                 echarts: true, // ECharts chart support
                 flowchart: true, // Flowchart support
-                markmap: true, // Markmap chart support
+                // markmap: true, // Markmap chart support
                 // stylize: true, // Style inline syntax to create code snippets
                 // playground: true, // Interactive demo
-                kotlinPlayground: true, // Kotlin interactive demo
+                // kotlinPlayground: true, // Kotlin interactive demo
                 vuePlayground: true, // Vue interactive demo
-                sandpack: true, // Sandpack interactive demo
+                // sandpack: true, // Sandpack interactive demo
                 demo: true, // Code example
                 revealJs: true, // Slide support
             }),
