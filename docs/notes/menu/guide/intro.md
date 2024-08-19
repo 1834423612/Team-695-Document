@@ -9,6 +9,11 @@ tags:
   - xxx
 ---
 
+<Card title="Path" icon="bi:folder-fill">
+    This page were located at
+    <Badge type="tip" text="docs/notes/menu/guide/intro.md" />
+</Card>
+
 ## Intro
 
 Welcome to the Team 695 Bison Robotics Documentation Website! <Icon name="noto:smiling-face-with-open-hands" size="1.5em" />
