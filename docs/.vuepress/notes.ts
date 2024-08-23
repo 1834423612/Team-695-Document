@@ -1,6 +1,6 @@
-import { definePlumeNotesConfig } from 'vuepress-theme-plume'
+import { defineNotesConfig } from 'vuepress-theme-plume'
 
-export const Notes = definePlumeNotesConfig({
+export const Notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
   notes: [
@@ -12,7 +12,7 @@ export const Notes = definePlumeNotesConfig({
           text: 'Quick Start',
           collapsed: false,
           icon: 'carbon:idea',
-          items: ['intro', '介绍', '安装与使用', '博客', '知识笔记', '编写文章', '国际化', '部署'],
+          items: ['intro'],
         },
         {
           text: 'Write a document',
@@ -24,52 +24,16 @@ export const Notes = definePlumeNotesConfig({
               collapsed: true,
               icon: 'material-symbols:markdown-outline',
               dir: 'markdown',
-              items: ['Basics', '扩展', '进阶'],
-            },
-            {
-              text: '代码块',
-              dir: '代码',
-              icon: 'ph:code-bold',
-              items: ['介绍', '特性支持', '代码组', '导入代码', 'twoslash'],
-            },
-            {
-              text: '代码演示',
-              dir: '代码演示',
-              icon: 'carbon:demo',
-              items: ['前端', 'rust', 'golang', 'kotlin', 'codepen', 'jsFiddle', 'codeSandbox', 'replit'],
-            },
-            {
-              text: '图表',
-              icon: 'mdi:chart-line',
-              dir: '图表',
-              items: ['chart', 'echarts', 'mermaid', 'flowchart'],
-            },
-            {
-              text: '资源嵌入',
-              icon: 'dashicons:embed-video',
-              dir: '嵌入',
-              items: ['pdf', 'bilibili', 'youtube'],
+              items: ['Basics', 'Extended', 'Advanced'],
             },
           ],
         },
         {
-          text: '功能',
+          text: 'Something else',
           icon: 'lucide:box',
           collapsed: false,
-          dir: '功能',
-          items: ['代码复制', '内容搜索', '评论', '加密', '组件', '文章水印', '友情链接页', 'seo', 'sitemap'],
-        },
-        {
-          text: '自定义',
-          icon: 'material-symbols:dashboard-customize-outline-rounded',
-          collapsed: false,
-          items: ['自定义首页', '自定义样式', '布局插槽', '组件覆写'],
-        },
-        {
-          text: 'API',
-          icon: 'mdi:api',
-          collapsed: false,
-          items: ['api-客户端', 'api-node'],
+          dir: 'test',
+          items: ['1'],
         },
       ],
     },

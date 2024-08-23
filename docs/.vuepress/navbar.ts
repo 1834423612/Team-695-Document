@@ -7,13 +7,13 @@ export const Navbar = [
   { text: 'Intro', link: '/guide/intro/', icon: 'material-symbols:info-outline' },
   { text: 'notes', link: '/notes/sub1/', icon: 'material-symbols:article-outline' },
   { text: 'About', link: '/about/', icon: 'mdi:alert-box-outline' },
-  {
-    text: '指南(test)',
-    icon: 'icon-park-outline:guide-board',
-    // link: '/guide/intro/',
-    link: '/notes/example/guide/介绍.md',
-    activeMatch: '^/test/',
-  },
+  // {
+  //   text: 'test',
+  //   icon: 'icon-park-outline:guide-board',
+  //   // link: '/guide/intro/',
+  //   link: '/notes/example/guide/介绍.md',
+  //   activeMatch: '^/test/',
+  // },
   {
     text: 'More',
     icon: 'icon-park-outline:more-three',

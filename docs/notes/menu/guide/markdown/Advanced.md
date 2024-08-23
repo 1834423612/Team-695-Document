@@ -1,12 +1,12 @@
 ---
-title: 更多
+title: Advanced
 author: pengzhanbo
 icon: ic:outline-auto-fix-high
 outline: 2
 createTime: 2024/03/05 16:27:59
 permalink: /guide/markdown/advance/
 tags:
-  - 指南
+  - Guide
   - markdown
 ---
 
