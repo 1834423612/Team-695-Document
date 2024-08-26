@@ -58,9 +58,6 @@ export default defineUserConfig({
             componentName: 'Iconify'
         }),
         markdownPowerPlugin({
-            pdf: true
-        }),
-        markdownPowerPlugin({
             pdf: true,
             caniuse: true,
             plot: true,
