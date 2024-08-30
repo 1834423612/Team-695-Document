@@ -10,7 +10,7 @@ tags:
 ---
 
 <Card title="Path" icon="bi:folder-fill">
-    This page were located at
+    This page was located at
     <Badge type="tip" text="docs/notes/menu/guide/intro.md" />
 </Card>
 
@@ -24,7 +24,7 @@ Some information here......
 
 :::
 
-In this document site, you can find the resources about the subteam we have. Also, there have a lots of basic stuffs were friendly to new.
+In this document site, you can find the resources about the subteam we have. Also, there are a lot of basic stuff that is friendly to new people.
 
 If you see anything in this document site was missing or wrong, feel free to change it on GitHub and make a Pull Request to the document repository.  
 
