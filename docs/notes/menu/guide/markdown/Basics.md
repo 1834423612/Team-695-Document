@@ -10,7 +10,7 @@ tags:
 ---
 
 <Card title="Path" icon="bi:folder-fill">
-    This page were located at
+    This page was located at
     <Badge type="tip" text="docs/notes/menu/guide/markdown/Basics.md" />
 </Card>
 
@@ -20,8 +20,8 @@ licensed under the [MIT](https://github.com/vuepress-theme-hope/vuepress-theme-h
 :::
 
 ::: warning Attention!
-**This document was using Google translate convert from a Chinese version, some words might have the mistake.**  
-The original document was locate at: [VuePress Plume Theme - Markdown Basic (CN Version ONLY)](https://theme-plume.vuejs.press/guide/markdown/basic/)
+**This document was using Google translate convert from a Chinese version, some words might have mistakes.**  
+The original document was located at: [VuePress Plume Theme - Markdown Basic (CN Version ONLY)](https://theme-plume.vuejs.press/guide/markdown/basic/)
 :::
 
 Markdown is a markup language that can be written using a plain text editor. With simple markup syntax, it allows plain text content to have certain formatting.
@@ -186,7 +186,7 @@ Block quotes can have levels (e.g., quotes within quotes) by adding different nu
 ```md
 > This is the first level of quoting.
 >
-> > This is nested blockquote.
+> > This is a nested blockquote.
 >
 > Back to the first level.
 ```
