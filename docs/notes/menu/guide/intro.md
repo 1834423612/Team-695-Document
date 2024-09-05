@@ -31,7 +31,7 @@ If you see anything in this document site was missing or wrong, feel free to cha
 If you didn't know how to use the Git & GitHub, you can also write an `.md(markdown type)` file, then contact the project leader and request to add/change.
 
 <CardGrid cols="sm:1 md:2 lg:2">
-  <LinkCard title="Contact Info" icon="mdi:people" href="./">
+  <LinkCard title="Contact Info" icon="mdi:people" href="https://www.team695.com/members">
       You can click this card to find the project leader
   </LinkCard>
 </CardGrid>

@@ -9,7 +9,7 @@ import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 export default defineUserConfig({
     lang: 'en-US',
     title: '695 Documentation',
-    description: 'VuePress theme for documentation',
+    description: 'A documentation site for Team 695 Bison Robotics',
 
     theme: plumeTheme({
         configFile: path.join(__dirname, './plume.config.ts'),
