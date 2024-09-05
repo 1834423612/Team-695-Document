@@ -24,16 +24,28 @@ export const Notes = defineNotesConfig({
               collapsed: true,
               icon: 'material-symbols:markdown-outline',
               dir: 'markdown',
-              items: ['Basics', 'Extended', 'Advanced'],
+              items: ['Basics'], //'Extended', 'Advanced'
             },
           ],
         },
+        // {
+        //   text: 'Something else',
+        //   icon: 'lucide:box',
+        //   collapsed: false,
+        //   dir: 'test',
+        //   items: ['1'],
+        // },
+      ],
+    },
+    {
+      dir: 'menu/rules/',
+      link: '/rules/',
+      sidebar: [
         {
-          text: 'Something else',
-          icon: 'lucide:box',
+          text: 'Rules',
           collapsed: false,
-          dir: 'test',
-          items: ['1'],
+          icon: 'fluent-mdl2:edit-settings',
+          items: ['handbook-pdf', 'handbook'],
         },
       ],
     },

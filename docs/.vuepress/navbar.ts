@@ -5,8 +5,8 @@ import { version } from '../../package.json'
 export const Navbar = [
   { text: 'Home', link: '/', icon: 'material-symbols:home-outline' },
   { text: 'Intro', link: '/guide/intro/', icon: 'material-symbols:info-outline' },
-  { text: 'notes', link: '/notes/sub1/', icon: 'material-symbols:article-outline' },
-  { text: 'About', link: '/about/', icon: 'mdi:alert-box-outline' },
+  // { text: 'notes', link: '/notes/sub1/', icon: 'material-symbols:article-outline' },
+  { text: 'Rules', link: '/rules/handbook/', icon: 'zondicons:exclamation-outline' },
   // {
   //   text: 'test',
   //   icon: 'icon-park-outline:guide-board',
@@ -15,24 +15,24 @@ export const Navbar = [
   //   activeMatch: '^/test/',
   // },
   {
-    text: 'More',
+    text: 'Websites',
     icon: 'icon-park-outline:more-three',
     items: [
       {
-        text: 'Vuepress',
+        text: 'Team 695',
         items: [
-          { text: 'Official Docs', link: 'https://v2.vuepress.vuejs.org' },
-          { text: 'Ecosystem', link: 'https://ecosystem.vuejs.press/' },
+          { text: 'Official Website', link: '//www.team695.com/' },
+          { text: 'Scoutify Site', link: 'https://scoutify.team695.com/' },
         ],
       },
     ],
   },
-  {
-    text: `${version}`,
-    icon: 'codicon:versions',
-    items: [
-      { text: 'Changelog', link: '/changelog/' },
-      { text: 'Contributing', link: '/contributing/' },
-    ],
-  },
+  // {
+  //   text: `${version}`,
+  //   icon: 'codicon:versions',
+  //   items: [
+  //     { text: 'Changelog', link: '/changelog/' },
+  //     { text: 'Contributing', link: '/contributing/' },
+  //   ],
+  // },
 ]
