@@ -24,15 +24,15 @@ Some information here......
 
 :::
 
-In this document site, you can find the resources about the subteam we have. Also, there are a lot of basic stuff that is friendly to new people.
+On this document site, you can find the resources about our sub-team. Also, there are a lot of basic stuff that is friendly to new people.
 
-If you see anything in this document site was missing or wrong, feel free to change it on GitHub and make a Pull Request to the document repository.  
+If you see anything missing or wrong in this document site, feel free to change it on GitHub and make a Pull Request to the document repository.  
 
-If you didn't know how to use the Git & GitHub, you can also write an `.md(markdown type)` file, then contact the project leader and request to add/change.
+If you don't know how to use Git & GitHub, you can also write a `.md(markdown type)` file, then tell someone in the scouting sub-team.
 
 <CardGrid cols="sm:1 md:2 lg:2">
-  <LinkCard title="Contact Info" icon="mdi:people" href="https://www.team695.com/members">
-      You can click this card to find the project leader
+  <LinkCard title="Contact Info" icon="mdi:people" href="https://www.frc695.com/resources">
+      You can click this card to find the open-source project
   </LinkCard>
 </CardGrid>
 

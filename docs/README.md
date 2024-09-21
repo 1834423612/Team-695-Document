@@ -19,7 +19,7 @@ config:
         -
           theme: alt
           text: Official Website
-          link: http://www.team695.com/
+          link: https://www.frc695.com/
 ---
 
 <!-- <div style="max-width: 960px;margin:0 auto;">

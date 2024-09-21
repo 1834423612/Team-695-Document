@@ -21,7 +21,7 @@ export const Navbar = [
       {
         text: 'Team 695',
         items: [
-          { text: 'Official Website', link: '//www.team695.com/' },
+          { text: 'Official Website', link: '//https://www.frc695.com/' },
           { text: 'Scoutify Site', link: 'https://scoutify.team695.com/' },
         ],
       },
