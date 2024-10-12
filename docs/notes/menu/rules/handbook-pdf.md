@@ -16,4 +16,4 @@ tags:
 
 # Team 695 Bison Robotics Handbook PDF (2024-2025)
 
-@[pdf zoom="100" ratio="25:29"](https://r2.fastbirdcdn.online/Robotics/Resource/Bison-Robotics_2024-2025_Handbook%28DRAFT%29.pdf)
+@[pdf zoom="100" ratio="25:29"](https://r2.fastbirdcdn.online/Robotics/Resource/2024-2025_Bison-Robotics_Handbook_September-2024.pdf)
