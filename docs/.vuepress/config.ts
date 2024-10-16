@@ -5,11 +5,15 @@ import { plumeTheme } from 'vuepress-theme-plume'
 import iconifyPlugin from '@vuepress-plume/plugin-iconify'
 import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 
-
 export default defineUserConfig({
     lang: 'en-US',
     title: '695 Documentation',
     description: 'A documentation site for Team 695 Bison Robotics',
+
+    // Add head option to insert script
+    head: [
+        ['script', { defer: true, src: 'https://tj.fastbirdcdn.online/kjchtj_main.js', 'data-website-id': '1b57433c-4d88-40d2-8782-98a44190eae1' }]
+    ],
 
     theme: plumeTheme({
         configFile: path.join(__dirname, './plume.config.ts'),
