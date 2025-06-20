@@ -5,6 +5,8 @@ import { version } from '../../package.json'
 export const Navbar = [
   { text: 'Home', link: '/', icon: 'material-symbols:home-outline' },
   { text: 'Intro', link: '/guide/intro/', icon: 'material-symbols:info-outline' },
+  { text: 'Scouting', link: '/scouting/', icon: 'mdi:robot' },
+  { text: 'Website', link: '/official-website/', icon: 'mdi:web' },
   // { text: 'notes', link: '/notes/sub1/', icon: 'material-symbols:article-outline' },
   { text: 'Rules', link: '/rules/handbook/', icon: 'zondicons:exclamation-outline' },
   // {
