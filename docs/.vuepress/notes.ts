@@ -57,6 +57,25 @@ export const Notes = defineNotesConfig({
       ],
     },
     {
+      dir: 'menu/official-website/',
+      link: '/official-website/',
+      sidebar: [
+        {
+          text: 'Get Started',
+          collapsed: false,
+          icon: 'fluent-mdl2:edit-settings',
+          items: ['Introduction'],
+        },
+        // {
+        //   text: 'A sub section',
+        //   icon: 'fluent-mdl2:edit-create',
+        //   collapsed: false,
+        //   dir: 'subsection',
+        //   items: ['TestSection'],
+        // },
+      ],
+    },
+    {
       dir: 'menu/rules/',
       link: '/rules/',
       sidebar: [
