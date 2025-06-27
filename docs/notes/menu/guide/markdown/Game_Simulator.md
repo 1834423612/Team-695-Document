@@ -1,75 +1,52 @@
-functions:
+- `l()`:  
+  **parameters**: ...  
+  **return**:  
+  **use**: shorthand print
 
+- `inputToggled()`:  
+  **parameters**:  
+  **return**:  
+  **use**: when the display for user input is toggled
 
-    l()
-        
-        paramater(s): ...
-        return:
-        use: shorthand print
+- `calculate()`:  
+  **parameters**:  
+  **return**:  
+  **use**: reloads page with user input
 
-    
-    inputToggled()
-    
-        paramater(s):
-        return:
-        use: when the display for user input is toggled
+- `encodeScenario(String)`:  
+  **parameters**:  
+    - `String`: numerical string of length equal to length of iteratingArrays  
+  **return**: `UINT`  
+  **use**: compresses readable form of a scenario into a number
 
+- `decodeScenario(UINT)`:  
+  **parameters**:  
+    - `UINT`  
+  **return**: numerical string  
+  **use**: decompresses a number into a readable form of a scenario
 
-    calculate()
-    
-        paramater(s):
-        return:
-        use: reloads page with user input
+- `scorePiece(UINT, Boolean)`:  
+  **parameters**:  
+    - `UINT`: compressed scenario  
+    - `Boolean`: true if alreadyHoldingAndPositioned  
+  **return**:  
+  **use**: simulates a robot scoring a piece(s)
 
-    
-    encodeScenario(String)
-        
-        paramater(s):
-            String
-                numerical string of length equal to length of iteratingArrays
-        return: UINT
-        use: compresses readable form of a scenario into a number
+- `addPlotData(UINT, String)`:  
+  **parameters**:  
+    - `UINT`: compressed scenario  
+    - `String`: an action the robot does  
+  **return**:  
+  **use**: pushes plot data to arrays
 
+- `updatedata(UINT)`:  
+  **parameters**:  
+    - `UINT`: compressed scenario  
+  **return**:  
+  **use**: updates which scenario’s data is being displayed in the right side of split screen
 
-    decodeScenario(UINT)
-        
-        paramater(s): UINT 
-        return: numerical string
-        use: decompresses a number into a readable form of a scenario
-
-
-    scorePiece(UINT, Boolean)
-        
-        paramater(s):
-            UINT, Boolean
-                compressed scenario, true if alreadyHoldingAndPositioned - specifically for end of auton when robot may be positioned to score
-        return:
-        use: simulates a robot scoring a piece(s)
-    
-    
-    addPlotData(UINT, String)
-        
-        paramater(s):
-            UINT, String
-                compressed scenario, an action the robot does such as 
-        return: 
-        use: pushes plot data to arrays
-    
-
-    updatedata(UINT)
-        
-        paramater(s):
-            UINT
-                compressed scenario
-        return: 
-        use: updates which scenario's data is being displayed in the right side of split screen
-        
-    
-    autonScorePiece(UINT)
-
-        paramater(s):
-            UINT
-                compressed scenario
-        return: 
-        use: simulates a robot scoring a piece(s) in auton
-            
+- `autonScorePiece(UINT)`:  
+  **parameters**:  
+    - `UINT`: compressed scenario  
+  **return**:  
+  **use**: simulates a robot scoring a piece(s) in auton
