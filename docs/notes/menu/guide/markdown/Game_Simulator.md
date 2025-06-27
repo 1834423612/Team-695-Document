@@ -1,3 +1,5 @@
+Functions
+
 - `l()`:  
   **parameters**: ...  
   **return**:  
@@ -50,3 +52,17 @@
     - `UINT`: compressed scenario  
   **return**:  
   **use**: simulates a robot scoring a piece(s) in auton
+
+
+How to modify this for a new game:
+    Use one of these template files depending on if you want stockpiling:
+        https://github.com/1834423612/scoutify_test/blob/master/stockpileTemplate2024.html
+        https://github.com/1834423612/scoutify_test/blob/master/nonStockPileTemplate.html
+        
+        TO DO: nonstockpiletemplate isn't as roboust as the stockpileTemplate
+
+  
+   Adapt lines 160-184 for the specific game you have in mind. Read the comments, as they can be descriptive.
+   Then edit the forloop right after the comment:        //create a scenario tree
+   Then edit the following functions: `autonScorePiece()` and `scorePiece()`
+ 
