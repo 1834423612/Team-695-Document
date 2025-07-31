@@ -1,45 +1,99 @@
-server.mjs :
-    this pulls the data from Blue Alliance into our database.
+📁 server.mjs
+frcEvent, compKey
 
-Change the following variables based on the event:
-    const frcEvent
-    const compKey
+type: const
 
-make sure the following variables are set to true:
-    let admin
-    let update
+use: change these based on the event
+
+admin, update
+
+type: let
+
+use: must be set to true to enable data update
 
 async function updateDB()
-    this updates the database using data from Blue Alliance
+
+parameters: none
+
+return: none
+
+use: updates the database using data from Blue Alliance
 
 async function getData()
-    this returns the data
 
+parameters: none
 
+return: event data
 
-index.html
+use: retrieves data from Blue Alliance
 
-update the following variable for each event
-    const frcEvent
-    
+🌐 index.html
+frcEvent
+
+type: const
+
+use: update this for each event
 
 function element(tagName, innerHTML = "", appendTo = document.body, id = null)
-    this generates an html element
+
+parameters:
+
+tagName: HTML tag
+
+innerHTML: optional content
+
+appendTo: parent element
+
+id: optional ID
+
+return: HTML element
+
+use: generates and appends an HTML element
 
 async function fetchFromEndpoint()
-    this fetches the data from server.mjs
+
+parameters: none
+
+return: data from server
+
+use: fetches data from server.mjs
 
 function ageListTable()
-    this generates the table that has info about the age of each team
 
-function updateTable ()
-    this updates the table
+parameters: none
+
+return: HTML table
+
+use: displays age info for each team
+
+function updateTable()
+
+parameters: none
+
+return: none
+
+use: refreshes the age table
 
 function calculateMedian(Int[] values)
-    this finds the median
+
+parameters: array of integers
+
+return: median value
+
+use: calculates median of values
 
 function getMedian(int i)
-    this gets the median of the ith team in the list
+
+parameters: index i
+
+return: median of team i
+
+use: retrieves median from team list
 
 async function main()
-    the main function
+
+parameters: none
+
+return: none
+
+use: main execution function
