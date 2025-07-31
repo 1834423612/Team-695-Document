@@ -1,99 +1,69 @@
-📁 server.mjs
-frcEvent, compKey
+# 🧠 Function Documentation
 
-type: const
+---
 
-use: change these based on the event
+## 📁 server.mjs
 
-admin, update
+### `const frcEvent`, `const compKey`
+- **Use**: Change these based on the event
 
-type: let
+### `let admin`, `let update`
+- **Use**: Must be set to `true` to enable data update
 
-use: must be set to true to enable data update
+### `async function updateDB()`
+- **Parameters**: none  
+- **Return**: none  
+- **Use**: Updates the database using data from Blue Alliance
 
-async function updateDB()
+### `async function getData()`
+- **Parameters**: none  
+- **Return**: Event data  
+- **Use**: Retrieves data from Blue Alliance
 
-parameters: none
+---
 
-return: none
+## 🌐 index.html
 
-use: updates the database using data from Blue Alliance
+### `const frcEvent`
+- **Use**: Update this for each event
 
-async function getData()
+### `function element(tagName, innerHTML = "", appendTo = document.body, id = null)`
+- **Parameters**:
+  - `tagName`: HTML tag
+  - `innerHTML`: optional content
+  - `appendTo`: parent element
+  - `id`: optional ID
+- **Return**: HTML element  
+- **Use**: Generates and appends an HTML element
 
-parameters: none
+### `async function fetchFromEndpoint()`
+- **Parameters**: none  
+- **Return**: Data from server  
+- **Use**: Fetches data from `server.mjs`
 
-return: event data
+### `function ageListTable()`
+- **Parameters**: none  
+- **Return**: HTML table  
+- **Use**: Displays age info for each team
 
-use: retrieves data from Blue Alliance
+### `function updateTable()`
+- **Parameters**: none  
+- **Return**: none  
+- **Use**: Refreshes the age table
 
-🌐 index.html
-frcEvent
+### `function calculateMedian(Int[] values)`
+- **Parameters**: Array of integers  
+- **Return**: Median value  
+- **Use**: Calculates median of values
 
-type: const
+### `function getMedian(int i)`
+- **Parameters**: Index `i`  
+- **Return**: Median of team `i`  
+- **Use**: Retrieves median from team list
 
-use: update this for each event
+### `async function main()`
+- **Parameters**: none  
+- **Return**: none  
+- **Use**: Main execution function
 
-function element(tagName, innerHTML = "", appendTo = document.body, id = null)
-
-parameters:
-
-tagName: HTML tag
-
-innerHTML: optional content
-
-appendTo: parent element
-
-id: optional ID
-
-return: HTML element
-
-use: generates and appends an HTML element
-
-async function fetchFromEndpoint()
-
-parameters: none
-
-return: data from server
-
-use: fetches data from server.mjs
-
-function ageListTable()
-
-parameters: none
-
-return: HTML table
-
-use: displays age info for each team
-
-function updateTable()
-
-parameters: none
-
-return: none
-
-use: refreshes the age table
-
-function calculateMedian(Int[] values)
-
-parameters: array of integers
-
-return: median value
-
-use: calculates median of values
-
-function getMedian(int i)
-
-parameters: index i
-
-return: median of team i
-
-use: retrieves median from team list
-
-async function main()
-
-parameters: none
-
-return: none
-
-use: main execution function
+---
