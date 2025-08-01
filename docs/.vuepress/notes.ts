@@ -48,6 +48,13 @@ export const Notes = defineNotesConfig({
           items: ['Introduction', 'Test'],
         },
         {
+          text: 'Resources',
+          icon: 'material-symbols:menu-book',
+          collapsed: false,
+          dir: 'resources',
+          items: ['Game_Simulator', 'Tear_Sheet'],
+        },
+        {
           text: 'A sub section',
           icon: 'fluent-mdl2:edit-create',
           collapsed: false,
