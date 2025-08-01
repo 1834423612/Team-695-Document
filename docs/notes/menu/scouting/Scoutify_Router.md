@@ -2,7 +2,7 @@
 title: Setup
 author: alexfinger21
 createTime: 2025/07/31 19:45:23
-permalink: /scouting/Scoutify_Router_Docs/
+permalink: /scouting/scoutify-router/
 ---
 ## Intro
 
@@ -20,6 +20,6 @@ Although there is definitely some codebase maintenance to be done (the database 
 *   The router then functions exactly the same as any express URL endpoint handler
 *   For each request method (e.g. GET/POST), define a handler function
 *   Return value using res (can be anything like rendering EJS using **res.render** or just returning json using **res.send** methods)
-*   Finally, export the router using the CommonJS module.exports convention (**module.exports = roiuter)**
+*   Finally, export the router using the CommonJS module.exports convention (**module.exports = router)**
 
 It's that simple!
