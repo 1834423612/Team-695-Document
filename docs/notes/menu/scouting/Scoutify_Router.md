@@ -22,4 +22,5 @@ Although there is definitely some codebase maintenance to be done (the database 
 *   Return value using res (can be anything like rendering EJS using **res.render** or just returning json using **res.send** methods)
 *   Finally, export the router using the CommonJS module.exports convention (**module.exports = router)**
 
+> **Note:** This project currently uses the CommonJS module system for exporting routers (`module.exports = router`). If you are using ES6 modules, you can export the router with `export default router;`. Please ensure consistency with the rest of the codebase and use CommonJS unless otherwise specified.
 It's that simple!
