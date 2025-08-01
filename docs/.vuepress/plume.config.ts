@@ -53,7 +53,9 @@ export default defineThemeConfig({
         // { icon: 'xbox', link: '' },
     ],
     navbarSocialInclude: ['github'],
-    footer: { copyright: 'Copyright © 2025 Team 695 Bison Robotics' },
+    footer: {
+        copyright: `Copyright © ${new Date().getFullYear()} Team 695 Bison Robotics`,
+    },
 
     navbar: Navbar,
     notes: Notes,
