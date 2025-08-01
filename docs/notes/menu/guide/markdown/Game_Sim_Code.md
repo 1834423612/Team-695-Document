@@ -1,3 +1,9 @@
+---
+title: Game_Sim_Code
+author: kjch
+createTime: 2025/07/31 19:28:10
+permalink: /guide/r7o975bm/
+---
 functions:
 
 
