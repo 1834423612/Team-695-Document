@@ -24,7 +24,7 @@ export const Notes = defineNotesConfig({
               collapsed: true,
               icon: 'material-symbols:markdown-outline',
               dir: 'markdown',
-              items: ['Basics'], //'Extended', 'Advanced'
+              items: ['Basics', 'Data Accuracy Documentation'], //'Extended', 'Advanced'
             },
           ],
         },
