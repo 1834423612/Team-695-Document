@@ -72,9 +72,9 @@ tags:
 - **Return**: Median value  
 - **Use**: Calculates median of values
 
-### `function getMedian(int i)`
+### `function getMedian(i)`
 
-- **Parameters**: Index `i`  
+- **Parameters**: Index `i` (integer)  
 - **Return**: Median of team `i`  
 - **Use**: Retrieves median from team list
 
