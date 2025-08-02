@@ -48,6 +48,12 @@ export const Notes = defineNotesConfig({
           items: ['Introduction', 'Test'],
         },
         {
+          text: 'Scoutify Router',
+          collapsed: false,
+          icon: 'fluent-mdl2:edit-settings',
+          items: ['Scoutify_Router'],
+        },
+        {
           text: 'Resources',
           icon: 'material-symbols:menu-book',
           collapsed: false,
