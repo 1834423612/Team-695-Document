@@ -1,7 +1,7 @@
 ---
 title: Team Handbook
 author: kjch
-icon: mdi:code
+icon: f7:doc-person-fill
 createTime: 2024/09/05 20:32:53
 permalink: /rules/handbook/
 tags:

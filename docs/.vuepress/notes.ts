@@ -44,13 +44,13 @@ export const Notes = defineNotesConfig({
         {
           text: 'Introduction',
           collapsed: false,
-          icon: 'fluent-mdl2:edit-settings',
+          icon: 'fluent:edit-settings-24-filled',
           items: ['Introduction', 'Test'],
         },
         {
           text: 'Scoutify Router',
           collapsed: false,
-          icon: 'fluent-mdl2:edit-settings',
+          icon: 'grommet-icons:directions',
           items: ['Scoutify_Router'],
         },
         {
@@ -76,7 +76,7 @@ export const Notes = defineNotesConfig({
         {
           text: 'Get Started',
           collapsed: false,
-          icon: 'fluent-mdl2:edit-settings',
+          icon: 'lets-icons:comment',
           items: ['Introduction'],
         },
         // {
@@ -95,7 +95,7 @@ export const Notes = defineNotesConfig({
         {
           text: 'Rules',
           collapsed: false,
-          icon: 'fluent-mdl2:edit-settings',
+          icon: 'hugeicons:important-book',
           items: ['handbook-pdf', 'handbook'],
         },
       ],

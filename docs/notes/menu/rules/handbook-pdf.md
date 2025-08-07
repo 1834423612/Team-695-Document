@@ -1,7 +1,7 @@
 ---
 title: Team Handbook PDF
 author: kjch
-icon: mdi:code
+icon: teenyicons:pdf-solid
 createTime: 2024/09/05 16:19:46
 permalink: /rules/handbook-pdf/
 tags:
