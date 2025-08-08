@@ -28,6 +28,27 @@ export const Notes = defineNotesConfig({
             },
           ],
         },
+        {
+          text: 'A sub section',
+          icon: 'fluent-mdl2:edit-create',
+          collapsed: false,
+          dir: 'subsection',
+          items: [
+            {
+              text: 'Test Section',
+              icon: 'fluent-mdl2:edit-create',
+              collapsed: false,
+              items: ['TestSection'],
+            },
+            {
+              text: 'A third level menu',
+              icon: 'grommet-icons:menu',
+              collapsed: false,
+              dir: 'third-level',
+              items: ['1'],
+            },
+          ],
+        },
         // {
         //   text: 'Something else',
         //   icon: 'lucide:box',
@@ -60,13 +81,6 @@ export const Notes = defineNotesConfig({
           dir: 'resources',
           items: ['Game_Simulator', 'Tear_Sheet'],
         },
-        {
-          text: 'A sub section',
-          icon: 'fluent-mdl2:edit-create',
-          collapsed: false,
-          dir: 'subsection',
-          items: ['TestSection'],
-        },
       ],
     },
     {
@@ -79,13 +93,27 @@ export const Notes = defineNotesConfig({
           icon: 'lets-icons:comment',
           items: ['Introduction'],
         },
-        // {
-        //   text: 'A sub section',
-        //   icon: 'fluent-mdl2:edit-create',
-        //   collapsed: false,
-        //   dir: 'subsection',
-        //   items: ['TestSection'],
-        // },
+        {
+          text: 'Team API',
+          collapsed: false,
+          icon: 'carbon:api-1',
+          dir: 'API',
+          items: [
+            {
+              text: 'Get Started',
+              collapsed: false,
+              icon: 'mdi:thinking',
+              items: ['Intro'],
+            },
+            // {
+            //   text: 'A third level menu',
+            //   icon: 'grommet-icons:menu',
+            //   collapsed: false,
+            //   dir: 'third-level',
+            //   items: ['1'],
+            // },
+          ],
+        },
       ],
     },
     {

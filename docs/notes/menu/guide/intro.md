@@ -5,8 +5,8 @@ icon: mdi:information-outline
 createTime: 2024/08/08 18:58:26
 permalink: /guide/intro/
 tags:
-  - intro
-  - xxx
+  - Guide
+  - Intro
 ---
 
 <Card title="Path" icon="bi:folder-fill">
