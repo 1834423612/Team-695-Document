@@ -33,7 +33,7 @@ router.post("/", function (req, res) {
 
 module.exports = router
 ```
-5. Add these two lines of code in server.js, replacing PAGE with the name of your EJS file.
+4. Add these two lines of code in server.js, replacing PAGE with the name of your EJS file.
 ```js
 const X = require(path.resolve(serverDirectory, routeDirectory, "PAGE.js"))
 
