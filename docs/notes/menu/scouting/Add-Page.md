@@ -1,16 +1,22 @@
 ---
 title: add-page
-author: kjch
-createTime: 1969/12/31 19:00:00
-permalink: /guide/lnnpirqi/
+author: igor023
+createTime: 2025/08/07 19:16:39
+permalink: /scouting/lnnpirqi/
 ---
-# Adding a page
-1. Add the EJS file in client/templates. The EJS file should have a div with id="page-holder" whose content will be loaded to client/templates/template.ejs when the user clicks on the page. Copy an existing page in client/templates if you need help.
-2. Add js to the page in client/static/scripts. Import the script in client/templates/template.ejs in the ```<head>``` tag
+
+## Adding a page
+
+1. Add the EJS file in client/templates. The EJS file should have a div with `id="page-holder"` whose content will be loaded to `client/templates/template.ejs` when the user clicks on the page. Copy an existing page in `client/templates` if you need help.
+
+2. Add js to the page in `client/static/scripts`. Import the script in `client/templates/template.ejs` in the ```<head>``` tag
+
 ```js
-    <script type="module" src="../static/scripts/YOUR-SCRIPT.js" defer></script>
+<script type="module" src="../static/scripts/YOUR-SCRIPT.js" defer></script>
 ```
-3. Add the router in server/routers.
+
+3. Add the router in `server/routers`.
+
 ```js
 const database = require("../database/database.js")
 const express = require("express")
@@ -33,13 +39,17 @@ router.post("/", function (req, res) {
 
 module.exports = router
 ```
-4. Add these two lines of code in server.js, replacing PAGE with the name of your EJS file.
+
+4. Add these two lines of code in `server.js`, replacing PAGE with the name of your EJS file.
+
 ```js
 const X = require(path.resolve(serverDirectory, routeDirectory, "PAGE.js"))
 
 app.use("/PAGE", X)
 ```
-6. If you'd like the page to show up in the bottom bar, add a button footer.ejs. Replace PAGE with the name of your page. Then, edit bottombar.js to include your page. Add the path to your page in the path constant in utility.js
+
+5. If you'd like the page to show up in the bottom bar, add a button `footer.ejs`. Replace PAGE with the name of your page. Then, edit `bottomBar.js` to include your page. Add the path to your page in the path constant in utility.js
+
 ```html
 <div class="button-wrapper">
     <button type="button" class="PAGE-button" id="PAGE-button" page="PAGE">
@@ -48,7 +58,9 @@ app.use("/PAGE", X)
     </button>
 </div>
 ```
-7. To include your page in the top right panel, go to header.ejs and add a button or a link in the dropdown-content div. Then, add code for the button (if necessary) in bottomBar.js
+
+6. To include your page in the top right panel, go to `header.ejs` and add a button or a link in the dropdown-content div. Then, add code for the button (if necessary) in `bottomBar.js`
+
 ```js
 const btn = document.getElementById("button-id")
 btn.addEventListener("click", () =>  {

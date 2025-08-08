@@ -2,11 +2,11 @@
 title: Shared Systems
 author: igor023
 icon: fluent:markdown-20-filled
-createTime: 2024/08/17 01:16:39
-permalink: /guide/drawing/Shared-Systems/
+createTime: 2025/08/07 19:16:39
+permalink: /scouting/drawing/Shared-Systems/
 tags:
-  - Guide
-  - Markdown
+  - Scouting
+  - Drawing
 ---
 ## Shared System
 

@@ -2,11 +2,11 @@
 title: Object Files
 author: igor023
 icon: fluent:markdown-20-filled
-createTime: 2024/08/17 01:16:39
-permalink: /guide/drawing/File-By-File/
+createTime: 2025/08/07 19:16:39
+permalink: /scouting/drawing/File-By-File/
 tags:
-  - Guide
-  - Markdown
+  - Scouting
+  - Drawing
 ---
 ## File-by-File Reference
 
