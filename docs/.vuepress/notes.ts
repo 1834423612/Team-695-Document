@@ -28,6 +28,21 @@ export const Notes = defineNotesConfig({
             },
           ],
         },
+        {
+          text: 'Drawing System',
+          icon: 'fluent-mdl2:edit-create',
+          collapsed: false,
+          items: [
+            {
+              text: 'Drawing System',
+              collapsed: true,
+              icon: 'material-symbols:markdown-outline',
+              dir: 'drawing',
+              items: ['Shared-Systems', 'File-By-File'], //'Extended', 'Advanced'
+            },
+          ],
+        },
+ 
         // {
         //   text: 'Something else',
         //   icon: 'lucide:box',
