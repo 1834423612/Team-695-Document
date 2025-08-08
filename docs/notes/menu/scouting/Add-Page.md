@@ -2,7 +2,7 @@
 title: add-page
 author: igor023
 createTime: 2025/08/07 19:16:39
-permalink: /scouting/lnnpirqi/
+permalink: /scouting/add-page/
 ---
 
 ## Adding a page
