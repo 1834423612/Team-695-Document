@@ -27,7 +27,7 @@ export const Notes = defineNotesConfig({
               items: ['Basics'], //'Extended', 'Advanced'
             },
           ],
-        },
+        }, 
         // {
         //   text: 'Something else',
         //   icon: 'lucide:box',
@@ -45,13 +45,20 @@ export const Notes = defineNotesConfig({
           text: 'Introduction',
           collapsed: false,
           icon: 'fluent-mdl2:edit-settings',
-          items: ['Introduction', 'Test'],
+          items: ['Introduction', 'Test', 'Add-Page'],
         },
         {
           text: 'Scoutify Router',
           collapsed: false,
           icon: 'fluent-mdl2:edit-settings',
           items: ['Scoutify_Router'],
+        },
+        {
+          text: 'Drawing System',
+          icon: 'fluent-mdl2:edit-create',
+          collapsed: false,
+          dir: 'drawing',
+          items: ['Shared-Systems', 'File-By-File'], 
         },
         {
           text: 'Resources',
