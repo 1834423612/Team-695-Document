@@ -6,7 +6,7 @@ permalink: /guide/lnnpirqi/
 ---
 # Adding a page
 1. Add the EJS file in client/templates. The EJS file should have a div with id="page-holder" whose content will be loaded to client/templates/template.ejs when the user clicks on the page. Copy an existing page in client/templates if you need help.
-2. Add js to the page in client/static/scripts. Import the script in client/templates/template.ejs in the 	```<head>``` tag
+2. Add js to the page in client/static/scripts. Import the script in client/templates/template.ejs in the ```<head>``` tag
 ```js
     <script type="module" src="../static/scripts/YOUR-SCRIPT.js" defer></script>
 ```
