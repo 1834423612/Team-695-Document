@@ -1,7 +1,0 @@
----
-title: Game_Simulator
-author: kjch
-createTime: 1969/12/31 19:00:00
-permalink: /guide/6bx1r1rr/
----
-
