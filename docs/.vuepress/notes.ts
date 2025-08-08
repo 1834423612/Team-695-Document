@@ -53,6 +53,57 @@ export const Notes = defineNotesConfig({
       ],
     },
     {
+      dir: 'menu/scouting/',
+      link: '/scouting/',
+      sidebar: [
+        {
+          text: 'Introduction',
+          collapsed: false,
+          icon: 'fluent-mdl2:edit-settings',
+          items: ['Introduction', 'Test'],
+        },
+        {
+          text: 'Scoutify Router',
+          collapsed: false,
+          icon: 'fluent-mdl2:edit-settings',
+          items: ['Scoutify_Router'],
+        },
+        {
+          text: 'Resources',
+          icon: 'material-symbols:menu-book',
+          collapsed: false,
+          dir: 'resources',
+          items: ['Game_Simulator', 'Tear_Sheet'],
+        },
+        {
+          text: 'A sub section',
+          icon: 'fluent-mdl2:edit-create',
+          collapsed: false,
+          dir: 'subsection',
+          items: ['TestSection'],
+        },
+      ],
+    },
+    {
+      dir: 'menu/official-website/',
+      link: '/official-website/',
+      sidebar: [
+        {
+          text: 'Get Started',
+          collapsed: false,
+          icon: 'fluent-mdl2:edit-settings',
+          items: ['Introduction'],
+        },
+        // {
+        //   text: 'A sub section',
+        //   icon: 'fluent-mdl2:edit-create',
+        //   collapsed: false,
+        //   dir: 'subsection',
+        //   items: ['TestSection'],
+        // },
+      ],
+    },
+    {
       dir: 'menu/rules/',
       link: '/rules/',
       sidebar: [

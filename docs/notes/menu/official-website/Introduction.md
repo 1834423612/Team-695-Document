@@ -1,4 +1,33 @@
-# Team-695-Document
+---
+title: Introduction
+author: kjch
+createTime: 2025/06/19 20:37:20
+permalink: /official-website/
+tags:
+  - Official Website
+---
+
+# FRC Team 695 Bison Robotics - Official Website
+![Team-695-Official-Website-Design-2024-v1.png](https://github.com/user-attachments/assets/c69422fd-eafc-44bc-b02f-a619dbf27a04)
+
+## First Version Released 🎉
+The first version of the website has been released! Check out the latest **[release notes](https://github.com/1834423612/Team-695-OfficialWebsite/releases/latest)** for more details.
+
+## Project Overview
+The official website for FRC Team 695 Bison Robotics, a competitive robotics team from Beachwood High School, founded in 2001. This website serves as a platform to engage students in a hands-on STEM environment and showcase the team's activities and achievements.
+
+## Website Links
+- [Team 695 | Bison Robotics(team695.com)](https://www.team695.com/)
+- [Team 695 | Bison Robotics(frc695.com)](https://www.frc695.com/)
+
+## Tech Stacks
+For details on the technology stacks used, refer to the [package.json](https://github.com/1834423612/Team-695-OfficialWebsite/blob/master/package.json) file.
+
+<details>
+<summary>Dependencies Details</summary>
+
+Some dependencies are listed here for reference.
+</details>
 
 ## Running the Project
 To run the project locally, follow these steps:
@@ -10,7 +39,7 @@ Visit the official [Node.JS](https://nodejs.org/en) website and download the **L
 Go to [Git Download for Windows](https://git-scm.com/download/win) and download the **64-bit version**.
 
 ### 3. Get this repository link
-Go to [Team Official Documentation - Repository](https://github.com/1834423612/Team-695-Document) and follow the steps:  
+Go to [Team Official Website - FrontEnd Repository](https://github.com/1834423612/Team-695-OfficialWebsite) and follow the steps:  
 Select `Code` &#10132; `Local` &#10132; `HTTPS`, then copy the link.
 
 ![image](https://github.com/user-attachments/assets/198174e8-2966-4ee9-ad0b-ad97e03f7bd3)
@@ -28,12 +57,12 @@ Commands can be executed using `cmd`, `PowerShell`, `git bash` (Windows System),
 
 Clone the repository using the following command:
 ```Shell
-git clone https://github.com/1834423612/Team-695-Document.git
+git clone https://github.com/1834423612/Team-695-OfficialWebsite.git
 ```
 
 Navigate to the project directory:
 ```Shell
-cd Team-695-Document
+cd Team-695-OfficialWebsite
 ```
 
 ### 5. Install Project Dependencies
@@ -51,9 +80,10 @@ We recommend using `pnpm` to manage packages. Install the dependencies with:
 pnpm install
 ```
 
-**Note**: 
+::: warning Note: 
   - Use this command only when you change the `package.json`, add/update new dependencies, or the first time you run the project.
   - Once you run `pnpm install`, you should be able to see that it will generate one folder: `node_modules`, and one file: `pnpm-lock.yaml`.
+:::
 
 #### If your device is a fresh install environment/without `pnpm`, please run the installation below to your global environment first:
 <details>
@@ -106,3 +136,43 @@ Build the `Production` environment & Upload it to the server:
 pnpm build
 ```
 Then, all the static codes will located in the `/dist` folder. Upload them all to the server.
+
+
+## File Structure
+<details>
+<summary>Details</summary>
+
+### Default Page
+The default page is located at `/src/views/index.vue`.
+
+### Components Location
+Components are stored in the `/src/components/` directory to facilitate maintenance.  
+After creating new components, ensure they are imported into `/views/YourPage.vue`.
+
+### Example Import Code
+**Replace `YourComponentName` with the actual component name.**
+
+`/views/YourPage.vue`:
+```vue
+<template>
+  ...
+  <div>
+    <!-- Import the components -->
+    <!-- Same as your import name -->
+    <YourComponentName />
+  </div>
+  ...
+</template>
+
+<script>
+import YourComponentName from '../components/YourComponentName.vue';
+
+export default {
+  components: {
+    YourComponentName // Register this component, matching the import name
+  }
+};
+</script>
+```
+
+</details>
