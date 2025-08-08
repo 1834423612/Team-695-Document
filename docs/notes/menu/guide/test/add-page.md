@@ -55,5 +55,4 @@ btn.addEventListener("click", () =>  {
     requestPage(paths.URPage)
     hideHighlight(hoverButton)
 })
-    ```
 
